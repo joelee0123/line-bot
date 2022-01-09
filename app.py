@@ -47,12 +47,14 @@ def handle_message(event):
         sticker_message = StickerSendMessage(
             package_id = '2', 
             sticker_id = '23'
-            sticker_message)
+        )
         line_bot_api.reply_message(
             event.reply_token,
             sticker_message)
         return
 
+    # 用if結構是rule-based，如果是AI機器人，其實有可能也是用if結構還是rule-based
+    # NLP natural language processing自然語言處理(AI)
     if msg in ['hi', 'Hi']:
         r = '嗨'
     elif msg == '你吃飯了嗎':
