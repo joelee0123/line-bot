@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\line-bot>pip install line-bot-sdk
+C:\Users\User\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip
+
+--列出版本套件1
+C:\Users\User\Desktop\line-bot>pip list
+
+--列出版本套件2
+C:\Users\User\Desktop\line-bot>pip freeze
+
+C:\Users\User\Desktop\line-bot>heroku login
+C:\Users\User\Desktop\line-bot>heroku git:remote -a line-bot-0109
+create Procfile
+C:\Users\User\Desktop\line-bot>git push heroku main
+
+
+C:\Users\User\Desktop\line-bot>git add .
+C:\Users\User\Desktop\line-bot>git commit -m "add Procfile and requirements.txt"
+C:\Users\User\Desktop\line-bot>git push origin main
