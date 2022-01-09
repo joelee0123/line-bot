@@ -8,11 +8,14 @@ C:\Users\User\Desktop\line-bot>pip list
 C:\Users\User\Desktop\line-bot>pip freeze
 
 C:\Users\User\Desktop\line-bot>heroku login
+--¶}³qheroku
 C:\Users\User\Desktop\line-bot>heroku git:remote -a line-bot-0109
 create Procfile
 C:\Users\User\Desktop\line-bot>git push heroku main
 
+C:\Users\User\Desktop\line-bot>heroku logs
 
 C:\Users\User\Desktop\line-bot>git add .
 C:\Users\User\Desktop\line-bot>git commit -m "add Procfile and requirements.txt"
 C:\Users\User\Desktop\line-bot>git push origin main
+C:\Users\User\Desktop\line-bot>git push heroku main
